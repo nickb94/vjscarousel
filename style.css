@@ -1,0 +1,63 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+.carousel_container{
+    
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin: 0 auto;
+    height: 360px;
+    transition: ease;
+}   
+.card_container{
+
+    list-style: none;
+    transition: transform 0.2s ease;
+    position: relative;
+    height: 100%;
+
+}
+
+.active{
+   
+   cursor: grabbing;
+   cursor: -webkit-grabbing;
+ 
+}
+
+.cardslide{
+    position: absolute;
+    top: 30px;
+    width: 100%;
+}
+
+.card1, .card2, .card3, .card4{
+
+    height: 300px;
+    background-color: white;
+    box-shadow:  0 0 16px #d1d1d1;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 20px;
+    font-size: 250px;
+}
+
+.btn{
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    
+}
+
+.left{
+    left:30px;
+    z-index: 1;
+}
+
+.right {
+    right: 30px;
+    z-index: 1;
+}
